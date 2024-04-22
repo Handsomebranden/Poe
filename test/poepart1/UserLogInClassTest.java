@@ -43,11 +43,11 @@ public class UserLogInClassTest {
     public void testGetUsername() {
         System.out.println("getUsername");
         UserLogInClass instance = null;
-        String expResult = "";
+        String expResult = "Kyl_1";
         String result = instance.getUsername();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        fail("Kyle!!!!!");
     }
 
     /**
@@ -57,11 +57,11 @@ public class UserLogInClassTest {
     public void testGetPassword() {
         System.out.println("getPassword");
         UserLogInClass instance = null;
-        String expResult = "";
+        String expResult = "Ch&&sec@ke99!";
         String result = instance.getPassword();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        fail("password");
     }
 
     /**
